@@ -1,0 +1,148 @@
+<html>
+<body>
+<h1>
+	CS 455 homework #4 - data classification
+</h1>
+
+<h2> Notes: <br />
+	<ul>
+     <li> 150 points. </li>
+     <li> Due by 11:59 PM, Thursday, 04/11/2024. </li>
+     <li> Work individually or as a group. </li>
+     <li> Accuracy values must be reported using percentages (%). </li>
+	</ul>
+</h2>
+<hr />
+<ul><b>Data preparation</b>
+
+     <li> Add a new column as class label to the dataset used in homework 3. 
+          Use two labels only, with 50 data objects for each label. <br />
+          I used A and B in this document as an example.<br />
+          Suggestions: <br />
+          You can use other non-used attributes to decide the labels.
+          Or use your own judgement to do so. 
+     </li>  
+     <br />
+     <li> Assign 50 data objects (25 As and 25 Bs) as Training Data, used for constructing the classifier. <br /> 
+          Use the rest 50 data objects as Test Data, used for predicting class labels.
+     </li>
+</ul>
+
+<br />
+<ul> <b>KNN Classification</b> 
+  <li> Implement KNN (K Nearest Neighbor) data classification on your own or use KNN from  scikit-learn. <br />
+       Demonstrate two K values, i.e., K = 1 and K = 7.
+  </li>
+  <br />
+  <li> Compare the predicted labels against true labels to generate/display the accuracy. 
+  </li>   
+
+</ul>
+
+<br />
+<ul> <b> Decision Tree Classification </b>
+
+
+
+  <li> Train the decision tree using our Training Data (50; 25As and 25Bs) </li>
+
+  <li> Use the Test Data to test the performance. That is, compare the predicted labels against true labels and compute the accuracy. 
+  </li>
+</ul>
+
+<br />
+  <li> What to turn in?
+       <ul>
+            <li> (20 points) The dataset used (101 rows; header + data), with two normalized columns (integers with [0..100]) and one class label column(two classes). <br />
+                 Name the dataset as cs455_homework_4_lastname_dataset.csv </li>
+            <br />
+            <li> (40 points) Program source code, cs455_homework_4_lastname_program.ipynb. <br />
+                 The program must clearly indicate how/where accuracy values of Part 1, Part 2, and Part 3, been calculated. <br />
+                 The program should not contain anything unnecessary, e.g., testing, trial-and-error, ...</li>
+            </li>
+            <br />
+            <li> A report, i.e. cs455_homework_4_lastname_report.pdf, including
+                  <ul>
+                      <li> Part 1: (15 points)
+                         <ul>
+
+                              <li> Using KNN; K = 1 </li>
+                              <li> Predicted labels of the Test data <br />
+                                   Output the classification accuracy of class A. <br />
+                                   Output the classification accuracy of class B. <br />
+                                   Output of the overall classification accuracy(i.e., average).
+                              </li>
+                         </ul>
+                    </li>
+                     <br />
+                     <li> Part 2: (15 points)
+                         <ul>
+                              <li> Using KNN; K = 5 </li>
+                              <li> Predicted labels of the Test data <br />
+                                   Output the classification accuracy of class A. <br />
+                                   Output the classification accuracy of class B. <br />
+                                   Output of the overall classification accuracy(i.e., average).
+                              </li>
+                         </ul>
+                    </li>
+
+                     <br />
+                     <li> Part 3: (15 points)
+                         <ul>
+                              <li> Using decision tree from scikit-learn</li>
+                              <li> Predicted labels of the Test data <br />
+                                   Output the classification accuracy of class A. <br />
+                                   Output the classification accuracy of class B. <br />
+                                   Output of the overall classification accuracy(i.e., average).
+                              </li>
+                         </ul>
+                     
+                     </li>
+
+                     <br />
+                     <li> Part 4: (15 points)
+                          <ul> 
+                              <li> Which classifier has the best performance? </li>
+                              <li> Can you justify why? </li>
+                          </ul>
+                    </li> 
+                    <br />
+                    <li> Part 5: (30 points)
+                          <ul>
+                              <li> Based on this homework, answer the following job interview question: <br />
+                                   Tell us your hands-on experience on data classification. Your answer must be at least half-page.
+                              </li>
+                         </ul>
+
+                    </li>
+                    <li> Part 6: (optional)
+                         <ul>
+                              <li> Switch the Training data and the Test data to generate a more objective classification accuracy estimation. </li>
+                              <li> Perform n-fold cross validation. </li>
+                         </ul>
+                    </li>
+
+                </ul>
+           </li>
+
+
+
+            <br />
+            <li> Put everything in a folder, e.g., cs455_homework_4_lastname1_lastname2_lastname3, zip the folder, 
+            and upload the folder to Canvas.
+          </li>
+          <br />
+          <li> If you work as a group, clearly indicate your group members in the report; one submission is sufficient.
+          </ul>
+          <br />
+          <li> Asking questions about this homework during our lectures is highly recommended. </li> 
+       </ul>
+  </li>
+
+
+
+<br />
+
+</ul>
+
+</body>
